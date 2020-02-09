@@ -1,0 +1,35 @@
+{
+  "name": "icloud-calendar",
+  "version": "1.0.0",
+  "description": "Connects to the iCloud API and retrieves Calendar data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spmihai/icloud-calendar.git"
+  },
+  "keywords": [
+    "icloud",
+    "calendar",
+    "apple",
+    "icalendar",
+    "events"
+  ],
+  "author": "Mihai Socaciu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spmihai/icloud-calendar/issues"
+  },
+  "homepage": "https://github.com/spmihai/icloud-calendar",
+  "dependencies": {
+    "@types/request": "^2.48.2",
+    "@types/set-cookie-parser": "0.0.5",
+    "request": "^2.88.0",
+    "set-cookie-parser": "^2.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
